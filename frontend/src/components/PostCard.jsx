@@ -272,7 +272,7 @@ function PostCard(props) {
               {props.post.likedBy.length}
             </div>
             {localStorage.getItem("role") === "Recruiter" ? (
-              <div className="hidden">
+              <div className="">
                 <ShowLikes likes={props.post.likes} />
               </div>
             ) : (
@@ -289,7 +289,7 @@ function PostCard(props) {
                 </Tooltip>
                 {props.post.appliedBy.length}
               </div>
-              <div className="hidden">
+              <div className="">
                 <ShowApplications
                   postId={props.post._id}
                   blockList={props.post.blockList}
