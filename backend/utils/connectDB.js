@@ -11,7 +11,6 @@ const connectDB = () => {
         console.log(success.connection.host);
       })
       .catch((fail) => {
-        console.log(process.env.MONGODB_URI);
         console.log("Something went wrong in connecting DB");
       });
   } catch (error) {
