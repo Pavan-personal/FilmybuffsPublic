@@ -6,7 +6,7 @@
   PORT = #Use your own
   SECRET_KEY = #Use your own
   
-  #Login into cloudinary an get your keys 
+  #Login into cloudinary and get your keys 
   CLOUD_NAME = ''
   API_KEY = ''
   API_SECRET = ''
